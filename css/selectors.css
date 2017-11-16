@@ -1,0 +1,52 @@
+header {
+    border: 1px solid darkgoldenrod;
+}
+
+header ul {
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer input {
+    height: 25px;
+}
+
+.grandparent > h4 {
+    border: 1px dashed darkgoldenrod;
+    border-radius: 10px;
+}
+
+.promo {
+    font-weight: bold;
+}
+
+.disabled {
+    color: grey;
+} 
+
+a.disabled {
+    color: purple;
+}
+
+.active {
+    color:yellow;
+}
+
+.imRed {
+    color: red;
+}
+
+.imBlue {
+    color: blue;
+}
+
+.redSis {
+    background-color: red;
+}
+
+.blueBro {
+    background-color: blue;
+}
